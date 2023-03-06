@@ -6,7 +6,7 @@ export default function Skills() {
 	return (
 		<section
 			id="skills"
-			className="md:mx-[7%] my-24 md:p-24 p-8 w-full h-full bg-skills-section backdrop-blur-xs flex gap-4 flex-col md:flex-row justify-around rounded-3xl"
+			className="mx-[7%] my-24 md:p-24 p-12 w-[86%] h-full bg-skills-section backdrop-blur-xs flex gap-4 flex-col md:flex-row justify-around rounded-3xl"
 		>
 			<Skillset
 				title="Languages"

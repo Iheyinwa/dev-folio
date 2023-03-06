@@ -85,6 +85,6 @@ box-shadow: var(--outer-shadow);
 @import "tailwindcss/utilities";
 
 :root{
-  --outer-shadow: -3px -3px 7px #e3cd00, 3px 3px 5px #e3cd00;
-  --inner-shadow: inset -3px -3px 7px #e3cd00, inset 3px 3px 5px #e3cd00;
+  --outer-shadow: -3px -3px 7px #000, 3px 3px 5px #e3cd00;
+  --inner-shadow: inset -3px -3px 7px #000, inset 3px 3px 5px #000;
 }

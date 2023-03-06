@@ -15,7 +15,7 @@ export default function Navigation() {
 			<div className="flex items-center px-12 py-8 ">
 				<img src={ice} alt="profile" width="50px" height="50px" className="rounded-full pr-3" />
 				<AnchorLink href="#home">
-					<h1 className="text-3xl text-[#fff]">ICE</h1>
+					<h1 className="text-3xl text-[#fff] font-noir">ICE</h1>
 				</AnchorLink>
 			</div>
 			<button onClick={onclick}>
@@ -27,7 +27,7 @@ export default function Navigation() {
 			</button>
 
 			<ul
-				className={`lg:flex items-center transition-all duration-500 ease-in w-[50%] ${open
+				className={`lg:flex items-center transition-all duration-500 ease-in w-[50%] font-noir ${open
 					? 'h-screen opacity-100 mx-auto'
 					: 'h-0.5 opacity-1'}`}
 			>

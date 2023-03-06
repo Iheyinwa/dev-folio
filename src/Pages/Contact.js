@@ -3,7 +3,7 @@ import Form from '../components/Form';
 
 export default function Contact() {
 	return (
-		<section id="contact" className="grid lg:grid-cols-4 grid-cols-2 items-center mx-[7%] mt-[13%]">
+		<section id="contact" className="grid lg:grid-cols-4 grid-cols-2 items-center mx-[7%] mt-[13%] font-noir">
 			<aside className="col-span-2 mx-auto mb-20">
 				<h3 className="text-3xl md:text-5xl font-noir">Get In Touch</h3>
 				<div className="grid grid-cols-2 gap-4 mt-4">

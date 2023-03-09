@@ -12,7 +12,6 @@ export default function Home() {
 			<Skills />
 			<Portfolio />
 			<Contact />
-			<hr className="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 		</div>
 	);
 }

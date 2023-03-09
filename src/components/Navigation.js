@@ -11,7 +11,7 @@ export default function Navigation() {
 		setOpen(!open);
 	};
 	return (
-		<div className="lg:flex items-center lg:justify-between w-full overflow-hidden font-noir">
+		<div className="lg:flex items-center lg:justify-between w-full overflow-hidden font-noir sticky">
 			<div className="flex items-center px-12 py-8 ">
 				<img src={ice} alt="profile" width="50px" height="50px" className="rounded-full pr-3" />
 				<AnchorLink href="#home">

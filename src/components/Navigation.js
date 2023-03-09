@@ -20,9 +20,9 @@ export default function Navigation() {
 			</div>
 			<button onClick={onclick}>
 				{open ? (
-					<FaTimes className="cursor-pointer text-3xl absolute right-[3%] top-[5.5%] lg:hidden text-white" />
+					<FaTimes className="cursor-pointer text-3xl absolute right-[3%] top-[30.5%] lg:hidden text-white" />
 				) : (
-					<FaBars className="cursor-pointer text-3xl  absolute right-[3%] top-[5.5%] lg:hidden text-white" />
+					<FaBars className="cursor-pointer text-3xl  absolute right-[3%] top-[30.5%] lg:hidden text-white" />
 				)}
 			</button>
 

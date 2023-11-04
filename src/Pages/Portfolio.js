@@ -4,23 +4,40 @@ import abcd from '../img/abcd.png';
 import rhinospine from '../img/rhinospine.png';
 import cactus from '../img/cactus.png';
 import PortfolioText from '../components/Portfoliotext';
+import { motion } from 'framer-motion';
+
+const portfolioVariants = {
+	hidden:{
+		opacity:0,
+	},
+	visible:{
+		opacity: 1,
+		transition:{
+			ease: 'easeInOut'
+		}
+	}
+}
 export default function Portfolio() {
 	return (
 		<div id="portfolio">
 			<p className="text-3xl md:text-5xl mx-24 font-noir">Portfolio</p>
 			<section className="grid grid-cols-2 mx-[7%] mt-4 gap-8">
-				<a
+				<motion.a
+				variants={portfolioVariants}
+				initial='hidden'
+				whileInView='visible'
 					className="w-full group col-span-2 rounded-br-3xl shadow-2xl border"
 					href="../img/blackndwhite.png"
 					target="_blank"
 				>
 					<img
+					
 						src={Black}
 						alt="Black + White"
 						className="object-fit w-full h-full group-hover:opacity-50 rounded-br-3xl"
 					/>
 					<PortfolioText text="Black and White Landing Page developed with HTML and CSS" />
-				</a>
+				</motion.a>
 				<a
 					className="w-full group rounded-br-3xl shadow-2xl border"
 					href="https://ice-abubay.netlify.app/"

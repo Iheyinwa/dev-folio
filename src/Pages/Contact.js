@@ -15,7 +15,7 @@ export default function Contact() {
 						<p>LinkedIn</p>
 					</a>{' '}
 					<a
-						href="https://twitter.com/abubay28"
+						href="https://twitter.com/ihe_yinwa"
 						className="cursor-pointer flex gap-[4px] hover:fill-[#e3cd00] hover:text-[#e3cd00] "
 					>
 						<BsTwitter size={25} />

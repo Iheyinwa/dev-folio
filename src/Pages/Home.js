@@ -4,13 +4,15 @@ import Skills from './Skills';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 
+
 export default function Home() {
 	return (
 		<div id="home">
 			<Navigation />
 			<Content />
-			<Skills />
+	
 			<Portfolio />
+			<Skills />
 			<Contact />
 		</div>
 	);

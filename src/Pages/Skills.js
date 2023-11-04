@@ -1,6 +1,6 @@
 import { FaCss3, FaHtml5, FaJs } from 'react-icons/fa';
 import Skillset from '../components/Skillset';
-import { MATERIALUI, NEXTJS, REACTJS, TAILWINDCSS, TYPESCRIPT } from '../Icons';
+import { STYLEDCOMPONENTS, NEXTJS, REACTJS, TAILWINDCSS, TYPESCRIPT } from '../Icons';
 
 export default function Skills() {
 	return (
@@ -26,7 +26,7 @@ export default function Skills() {
 						<REACTJS />
 						<NEXTJS />
 						<TAILWINDCSS />
-						<MATERIALUI />
+						<STYLEDCOMPONENTS />
 					</div>
 				}
 			/>

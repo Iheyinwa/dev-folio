@@ -19,7 +19,7 @@ const portfolioVariants = {
 }
 export default function Portfolio() {
 	return (
-		<div id="portfolio">
+		<div id="portfolio" className='my-10'>
 			<p className="text-3xl md:text-5xl mx-24 font-noir">Portfolio</p>
 			<section className="grid grid-cols-2 mx-[7%] mt-4 gap-8">
 				<motion.a

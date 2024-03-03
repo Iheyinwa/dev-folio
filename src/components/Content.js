@@ -1,6 +1,6 @@
 import { MdFileDownload } from 'react-icons/md';
 import { motion } from 'framer-motion';
-import MyResume from '../img/ICE_RESUME.pdf';
+import MyResume from "../img/ARUOGU-CHIDIEBUBE-RESUME.pdf";
 
 const paragraphVariants = {
 	hidden:{

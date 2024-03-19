@@ -5,3 +5,13 @@ h1 {
   letter-spacing: 2px;
   z-index: 1;
 }
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  z-index: 999;
+  background: #e3dc00;
+  transform-origin: 0%;
+}
